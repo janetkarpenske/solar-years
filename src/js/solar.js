@@ -34,6 +34,6 @@ export class Galactic {
       return Math.round(this.userAge/(188/100));
     }
     jupiter() {
-      
+      return Math.round(this.userAge/(1186/100));
     }
   }
