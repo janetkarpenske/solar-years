@@ -24,4 +24,8 @@ export class Galactic {
       return 82;
     }
     }
+
+    mercury() {
+      
+    }
   }

@@ -15,4 +15,8 @@ describe('Galactic', () => {
   test('should return a life expectancy number', () => {
     expect(galactic.lifeExpect()).toEqual(80);
   });
+
+  test('should return the users age based on mercury years', () => {
+    expect(galactic.mercury()).toEqual(100);
+  })
 });
