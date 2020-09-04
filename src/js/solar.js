@@ -8,7 +8,6 @@ export class Galactic {
     this.marsExpect;
     this.jupiterExpect;
   }
-
   lifeExpect() {
     if (this.continent === "North America") {
       this.lifeExpectancy = 80;
