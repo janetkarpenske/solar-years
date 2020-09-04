@@ -22,10 +22,12 @@ export class Galactic {
     }
     if (this.continent === "Australia") {
       return 82;
-    }
-    }
+    } }
 
     mercury() {
       return Math.round(this.userAge/(24/100));
+    }
+    venus() {
+     
     }
   }
