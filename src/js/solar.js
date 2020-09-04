@@ -33,4 +33,7 @@ export class Galactic {
     mars() {
       return Math.round(this.userAge/(188/100));
     }
+    jupiter() {
+      
+    }
   }
