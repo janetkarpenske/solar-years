@@ -31,6 +31,6 @@ export class Galactic {
       return Math.round(this.userAge/(62/100));
     }
     mars() {
-      
+      return Math.round(this.userAge/(188/100));
     }
   }
