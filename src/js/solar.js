@@ -42,7 +42,7 @@ export class Galactic {
         this.mercuryExpect = mercExpectancy - mercAge
       }
       else {
-        this.mercuryExpect = (mercAge - mercExpectancy) + " years over "
+        this.mercuryExpect = (mercExpectancy - mercAge)
       }
       return mercAge;
     }
@@ -53,7 +53,7 @@ export class Galactic {
         this.venusExpect = venExpectancy - venAge
       }
       else {
-        this.venusExpect = (venAge - venExpectancy) + " years over "
+        this.venusExpect = (venExpectancy - venAge)
       }
       return venAge;
     }
@@ -64,7 +64,7 @@ export class Galactic {
         this.marsExpect = marExpectancy - marAge
       }
       else {
-        this.marsExpect = (marAge - marExpectancy) + " years over "
+        this.marsExpect = (marExpectancy - marAge)
       }
       return marAge;
     }
@@ -75,7 +75,7 @@ export class Galactic {
         this.jupiterExpect = jupExpectancy - jupAge
       }
       else {
-        this.jupiterExpect = (jupAge - jupExpectancy) + " years over "
+        this.jupiterExpect = (jupExpectancy - jupAge)
       }
       return jupAge;
     }
