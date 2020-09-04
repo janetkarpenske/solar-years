@@ -14,6 +14,7 @@ https://janetkarpenske.github.io/solar-years/
 ## Specifications
 | Description | Input Example | Output |
 |-------------|---------------|--------|
+| Program takes in an age and continent location and creates an object. | Galactic(24, "North America") | {age = 24, place = "North America"} |
 | Program asks what continent the user lives in and returns life expectancy in Earth years | lifeExpect("North America") | 80 |
 | Program takes an age input and returns the age on Mercury (rounded). | mercury(24) | 100 |
 | Program takes an age input and returns the age on Venus (rounded). | venus(24) | 39 |
