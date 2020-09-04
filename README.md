@@ -20,7 +20,8 @@ https://janetkarpenske.github.io/solar-years/
 | Program takes an age input and returns the age on Venus (rounded). | venus(24) | 39 |
 | Program takes an age input and returns the age on Mars (rounded). | mars(24) | 13 |
 | Program takes an age input and returns the age on Jupiter (rounded). | jupiter(24) | 2 |
-| Program saves the users life expectancy within constructor to be used later. | galactic.lifeExpectancy | 80 |
+| Program saves the users calculated life expectancy as property of constructor to be used later. | galactic.lifeExpectancy | 80 |
+| Program calculates the users life expectancy on other planets and stores them as properties in constructor. | galactic.mercuryExpect | 233 |
 
 
 ## Setup/Installation Requirements

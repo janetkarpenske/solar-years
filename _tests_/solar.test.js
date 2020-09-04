@@ -36,4 +36,10 @@ describe('Galactic', () => {
     galactic.lifeExpect();
     expect(galactic.lifeExpectancy).toEqual(80);
   });
+
+  test('makes life expectancy on other planets a property of constructor', () => {
+    galactic.lifeExpect();
+    galactic.mercury();
+    expect(galactic.mercuryExpect).toEqual(233);
+  });
 });

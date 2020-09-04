@@ -3,6 +3,10 @@ export class Galactic {
     this.userAge = userAge,
     this.continent = continent
     this.lifeExpectancy;
+    this.mercuryExpect;
+    this.venusExpect;
+    this.marsExpect;
+    this.jupiterExpect;
   }
 
   lifeExpect() {
@@ -32,15 +36,20 @@ export class Galactic {
     } }
 
     mercury() {
-      return Math.round(this.userAge/(24/100));
+      let mercAge = Math.round(this.userAge/(24/100));
+      
+      return mercAge;
     }
     venus() {
-      return Math.round(this.userAge/(62/100));
+      let venAge = Math.round(this.userAge/(62/100));
+      return venAge;
     }
     mars() {
-      return Math.round(this.userAge/(188/100));
+      let marAge = Math.round(this.userAge/(188/100));
+      return marAge;
     }
     jupiter() {
-      return Math.round(this.userAge/(1186/100));
+      let jupAge = Math.round(this.userAge/(1186/100));
+      return jupAge;
     }
   }
