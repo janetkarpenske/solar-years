@@ -20,6 +20,7 @@ https://janetkarpenske.github.io/solar-years/
 | Program takes an age input and returns the age on Venus (rounded). | venus(24) | 39 |
 | Program takes an age input and returns the age on Mars (rounded). | mars(24) | 13 |
 | Program takes an age input and returns the age on Jupiter (rounded). | jupiter(24) | 2 |
+| Program saves each age return value as it's own variable for future use. | 
 
 
 ## Setup/Installation Requirements
