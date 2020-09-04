@@ -3,4 +3,8 @@ export class Galactic {
     this.userAge = userAge,
     this.continent = continent
   }
+
+  lifeExpect(continent) {
+    
+  }
 }
