@@ -26,6 +26,6 @@ export class Galactic {
     }
 
     mercury() {
-      
+      return Math.round(this.userAge/(24/100));
     }
   }
