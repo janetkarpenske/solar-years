@@ -28,6 +28,6 @@ export class Galactic {
       return Math.round(this.userAge/(24/100));
     }
     venus() {
-     
+      return Math.round(this.userAge/(62/100));
     }
   }
