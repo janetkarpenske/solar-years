@@ -2,11 +2,12 @@ export class Galactic {
   constructor(userAge, continent) {
     this.userAge = userAge,
     this.continent = continent
-    
+    this.lifeExpectancy;
   }
 
   lifeExpect() {
     if (this.continent === "North America") {
+      
       return 80;
     }
     if (this.continent === "South America") {
