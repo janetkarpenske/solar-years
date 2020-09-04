@@ -1,14 +1,15 @@
 .mainHeader {
   text-align: center;
   margin-top: 80px;
-  color: rgb(137, 226, 253);
+  color: rgb(255, 255, 255);
 }
 h1 {
   font-family: 'Abril Fatface', cursive;
   font-size: 90px;
-  text-shadow: 3px 3px 10px rgb(125, 198, 240);
+  text-shadow: 3px 3px 10px rgb(255, 255, 255);
 }
 body {
+  background-image: url("https://cdn.mos.cms.futurecdn.net/reaVPYbHtVWG8WHFPrgdvB.jpg");
   background-color: rgb(49, 43, 43);
   color: white;
 }
@@ -33,7 +34,8 @@ p {
   font-size: 20px;
 }
 #mercuryInfo, #venusInfo, #marsInfo, #jupiterInfo {
-  background-color: rgb(8, 8, 8, .5);
+  background-color: rgb(8, 8, 8, .8);
   padding: 10px;
   border-radius: 8px;
+  border: solid white;
 }

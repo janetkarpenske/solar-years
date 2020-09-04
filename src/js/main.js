@@ -19,13 +19,19 @@ $(document).ready(function() {
     event.preventDefault();
     const userAge = parseInt($("#age").val());
     const continent = $("#continent").val();
-    let galactic = new Galactic(userAge, continent);
-    let lifeExpectancy = galactic.lifeExpect();
-    let merAge = galactic.mercury();
-    let venAge = galactic.venus();
-    let marAge = galactic.mars();
-    let jupAge = galactic.jupiter();
-    console.log(galactic.mercuryExpect);
-    displayStats(merAge, venAge, marAge, jupAge, galactic);
+    if (userAge >= 0) {
+      let galactic = new Galactic(userAge, continent);
+      galactic.lifeExpect();
+      let merAge = galactic.mercury();
+      let venAge = galactic.venus();
+      let marAge = galactic.mars();
+      let jupAge = galactic.jupiter();
+      console.log(galactic.mercuryExpect);
+      displayStats(merAge, venAge, marAge, jupAge, galactic);
+    }
+    else {
+      alert("Please enter a valid age")
+      return false;
+    }
   });
 });

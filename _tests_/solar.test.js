@@ -1,9 +1,6 @@
 import { Galactic } from './../src/js/solar.js';
-
 describe('Galactic', () => {
-
   let galactic;
-
   beforeEach(() => {
     galactic = new Galactic(24, "North America");
   });
