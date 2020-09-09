@@ -9,7 +9,7 @@
 This program allows the user to enter their age and calculate it on other planets based on solar years.
 
 ## Link To Active Site:
-https://janetkarpenske.github.io/solar-years/
+Not Applicable
 
 ## Specifications
 | Description | Input Example | Output |
