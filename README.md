@@ -26,8 +26,11 @@ Not Applicable
 
 ## Setup/Installation Requirements
 
-* Download or Clone project from Github repository (click button that says "Clone" or "Download") OR click link to view the active site located in README.md file (see above). 
-* If cloned/downloaded: Open index.html file with live server to view webpage, OR open scripts.js, styles.css, or index.html to view code.
+* Download or Clone project from Github repository.
+* Open a terminal within main project directory.
+* Use command: 'npm install' to install packages.
+* After installation, use command 'npm run build'. 
+* Run command 'npm start' to view project with live server.
 
 ## Known Bugs
 
