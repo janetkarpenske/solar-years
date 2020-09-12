@@ -38,3 +38,20 @@ describe('Galactic', () => {
     expect(galactic.jupiterExpect).toEqual(5);
   });
 });
+describe('Galactic', () => {
+  let galactic;
+  beforeEach(() => {
+    galactic = new Galactic(100, "North America");
+  });
+test('returns life expectancy as a positive number even if over the expected age', () => {
+  galactic.lifeExpect();
+  galactic.mercury();
+  galactic.venus();
+  galactic.mars();
+  galactic.jupiter();
+  expect(galactic.mercuryExpect).toEqual("84 years over expected age.");
+  expect(galactic.venusExpect).toEqual("32 years over expected age.");
+  expect(galactic.marsExpect).toEqual("10 years over expected age.");
+  expect(galactic.jupiterExpect).toEqual("1 years over expected age.");
+});
+});
