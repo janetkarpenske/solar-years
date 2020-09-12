@@ -4,14 +4,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/styles.css';
 import { Galactic } from './solar.js';
 function displayStats(merAge, venAge, marAge, jupAge, galactic) {
-  $("#merAge").text(merAge);
-  $("#venAge").text(venAge);
-  $("#marAge").text(marAge);
-  $("#jupAge").text(jupAge);
-  $("#merEx").text(galactic.mercuryExpect);
-  $("#venEx").text(galactic.venusExpect);
-  $("#marsEx").text(galactic.marsExpect);
-  $("#jupEx").text(galactic.jupiterExpect);
+  $("#merAge").text(`Your Mercury age: ${merAge}`);
+  $("#venAge").text(`Your Venus age: ${venAge}`);
+  $("#marAge").text(`Your Mars age: ${marAge}`);
+  $("#jupAge").text(`Your Jupiter age: ${jupAge}`);
+  $("#merEx").text(`Years left to live: ${galactic.mercuryExpect}`);
+  $("#venEx").text(`Years left to live: ${galactic.venusExpect}`);
+  $("#marsEx").text(`Years left to live: ${galactic.marsExpect}`);
+  $("#jupEx").text(`Years left to live: ${galactic.jupiterExpect}`);
   $("#results").show();
 }
 $(document).ready(function() { 
